@@ -56,3 +56,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact: documentation/_site
+          publish_dir: ${{ steps.pages.outputs.publish_dir }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          publish_branch: gh-pages
+          commit_message: "Deploy to GitHub Pages"
