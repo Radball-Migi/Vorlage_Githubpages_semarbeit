@@ -18,6 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Source of the Deployment stuff
+source: documentation
+
+
 # site overview stuff
 title: HF-ITCNE24-Vorlage_GithubPages_Semesterarbeit
 email: miguel.schneider@edu.tbz.ch
