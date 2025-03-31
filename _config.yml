@@ -19,10 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 # site overview stuff
-title: HF-ITCNE24-SemArbeit2-BPMN-Personalprozess
+title: HF-ITCNE24-SemArbeit3
 email: miguel.schneider@edu.tbz.ch
 description: >- # this means to ignore newlines until another declaration
-  "2. Semesterarbeit von Miguel Schneider"
+  "3. Semesterarbeit von Miguel Schneider"
 
 # personal stuff
 author: "Miguel Schneider"
@@ -30,12 +30,12 @@ github_username:  "Radball-Migi"
 
 # external stuff
 aux_links:
-  Projektplanung: https://github.com/users/Radball-Migi/projects/3
+  # Projektplanung: https://github.com/users/Radball-Migi/projects/3
 aux_links_new_tab: true
 
 
 # technical site stuff
-url: "https://github.com/Radball-Migi/HF-ITCNE24-SemArbeit2-BPMN-Personalprozess/"
+url: "https://github.com/Radball-Migi/HF-ITCNE24-SemArbeit3/"
 logo: "/ressources/images/migi_logo.png"
 favicon_ico: "/ressources/images/migi.jpg"
 remote_theme: just-the-docs/just-the-docs
@@ -45,11 +45,11 @@ plugins:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-exclude:
+#exclude:
 # Enter path with to exclude a file
-  - ressources/notizen/
-  - documentation/Hauptteil/Notizen_aufbau.md
-  - ressources/scripts/Logininfos.json
+  # - ressources/notizen/
+  # - documentation/Hauptteil/Notizen_aufbau.md
+  # - ressources/scripts/Logininfos.json
   
 
 # Exclude from processing.
