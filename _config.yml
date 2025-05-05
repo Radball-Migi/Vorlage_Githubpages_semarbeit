@@ -18,14 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# Source of the Deployment stuff
-
 # site overview stuff
-title: HF-ITCNE24-Vorlage_GithubPages_Semesterarbeit
+title: HF-ITCNE24-SemArbeit2-BPMN-Personalprozess
 email: miguel.schneider@edu.tbz.ch
 description: >- # this means to ignore newlines until another declaration
-  "Vorlage_GithubPages_Semesterarbeit" ist eine Vorlage für die Semesterarbeit im HF-ITCNE24.
-  Die Vorlage ist so aufgebaut, dass sie als Github Pages Repository verwendet werden kann.
+  "2. Semesterarbeit von Miguel Schneider"
 
 # personal stuff
 author: "Miguel Schneider"
@@ -33,12 +30,12 @@ github_username:  "Radball-Migi"
 
 # external stuff
 aux_links:
-  # Projektplanung: https://github.com/users/Radball-Migi/projects/3
+  Projektplanung: https://github.com/users/Radball-Migi/projects/3
 aux_links_new_tab: true
 
 
 # technical site stuff
-url: "https://github.com/Radball-Migi/Vorlage_GithubPages_Semesterarbeit"
+url: "https://github.com/Radball-Migi/HF-ITCNE24-SemArbeit2-BPMN-Personalprozess/"
 logo: "/ressources/images/migi_logo.png"
 favicon_ico: "/ressources/images/migi.jpg"
 remote_theme: just-the-docs/just-the-docs
@@ -51,8 +48,8 @@ back_to_top_text: "Back to top"
 exclude:
 # Enter path with to exclude a file
   - ressources/notizen/
-  # - documentation/Hauptteil/Notizen_aufbau.md
-  # - ressources/scripts/Logininfos.json
+  - documentation/Hauptteil/Notizen_aufbau.md
+  - ressources/scripts/Logininfos.json
   
 
 # Exclude from processing.
